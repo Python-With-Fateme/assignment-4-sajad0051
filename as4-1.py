@@ -1,1 +1,6 @@
-# fact 6 = 6*5*4*3*2*1
+n=int(input('enter your add?'))
+x=1
+while n>0 :
+    x=x*n
+    n-=1
+print(x)
