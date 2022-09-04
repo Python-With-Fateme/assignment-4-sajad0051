@@ -1,6 +1,7 @@
-n=int(input('enter your add?'))
-x=1
-while n>0 :
-    x=x*n
-    n-=1
-print(x)
+n=int(input('chand ta mikhay vard koni?'))
+for i in range(n):
+        s=1
+        a=int(input(f'enter your add{i+1}? '))
+        for j in range(1,a+1):
+            s=s*j
+        print(s)

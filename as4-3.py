@@ -1,6 +1,7 @@
-a=[]
-for i in range (1,1000):
-    n=int(input('enter your number?'))
-    a.append(n)
-    a.sort()
-    print(a)
+n=int(input('enter chan ta vard mikoni?'))
+b=[]
+for i in range (n):
+    a=int(input('enter your number?'))
+    b.append(a)
+b.sort()
+print(b)
