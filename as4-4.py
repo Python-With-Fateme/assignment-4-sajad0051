@@ -7,12 +7,11 @@ true_chars=['_']*len(fild)
 print(true_chars)
 scors=len(fild)
 while True:
-    state=False
     char=input('enter a fild :')
     for i in range(len(fild)):
         if fild[i]==char:
             true_chars[i]=char
-    if state==False:
+    if char not in fild:
         scors-=1
     print(true_chars)
     if fild==true_chars:
